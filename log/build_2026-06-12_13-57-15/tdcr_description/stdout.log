@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/tdcr_description/tdcr_description.egg-info
+writing ../../build/tdcr_description/tdcr_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/tdcr_description/tdcr_description.egg-info/dependency_links.txt
+writing entry points to ../../build/tdcr_description/tdcr_description.egg-info/entry_points.txt
+writing requirements to ../../build/tdcr_description/tdcr_description.egg-info/requires.txt
+writing top-level names to ../../build/tdcr_description/tdcr_description.egg-info/top_level.txt
+writing manifest file '../../build/tdcr_description/tdcr_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/tdcr_description/tdcr_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/tdcr_description/tdcr_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/danushkara/TDCR_ws/build/tdcr_description/build
+creating /home/danushkara/TDCR_ws/build/tdcr_description/build/lib
+creating /home/danushkara/TDCR_ws/build/tdcr_description/build/lib/tdcr_description
+copying tdcr_description/__init__.py -> /home/danushkara/TDCR_ws/build/tdcr_description/build/lib/tdcr_description
+running install
+running install_lib
+creating /home/danushkara/TDCR_ws/install/tdcr_description/lib/python3.10/site-packages/tdcr_description
+copying /home/danushkara/TDCR_ws/build/tdcr_description/build/lib/tdcr_description/__init__.py -> /home/danushkara/TDCR_ws/install/tdcr_description/lib/python3.10/site-packages/tdcr_description
+byte-compiling /home/danushkara/TDCR_ws/install/tdcr_description/lib/python3.10/site-packages/tdcr_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/danushkara/TDCR_ws/install/tdcr_description/share/ament_index
+creating /home/danushkara/TDCR_ws/install/tdcr_description/share/ament_index/resource_index
+creating /home/danushkara/TDCR_ws/install/tdcr_description/share/ament_index/resource_index/packages
+copying resource/tdcr_description -> /home/danushkara/TDCR_ws/install/tdcr_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description
+running install_egg_info
+Copying ../../build/tdcr_description/tdcr_description.egg-info to /home/danushkara/TDCR_ws/install/tdcr_description/lib/python3.10/site-packages/tdcr_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/danushkara/TDCR_ws/build/tdcr_description/install.log'

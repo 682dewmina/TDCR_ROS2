@@ -1,0 +1,6 @@
+Invoking command in '/home/danushkara/TDCR_ws/build/tdcr_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/danushkara/TDCR_ws/src/tdcr_control -DCMAKE_INSTALL_PREFIX=/home/danushkara/TDCR_ws/install/tdcr_control
+Invoked command in '/home/danushkara/TDCR_ws/build/tdcr_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/danushkara/TDCR_ws/src/tdcr_control -DCMAKE_INSTALL_PREFIX=/home/danushkara/TDCR_ws/install/tdcr_control
+Invoking command in '/home/danushkara/TDCR_ws/build/tdcr_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/danushkara/TDCR_ws/build/tdcr_control -- -j8 -l8
+Invoked command in '/home/danushkara/TDCR_ws/build/tdcr_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/danushkara/TDCR_ws/build/tdcr_control -- -j8 -l8
+Invoking command in '/home/danushkara/TDCR_ws/build/tdcr_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/danushkara/TDCR_ws/build/tdcr_control
+Invoked command in '/home/danushkara/TDCR_ws/build/tdcr_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/danushkara/TDCR_ws/build/tdcr_control

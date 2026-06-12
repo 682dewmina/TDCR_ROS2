@@ -1,0 +1,33 @@
+[2.199s] Invoking command in '/home/danushkara/TDCR_ws/src/tdcr_jacobian': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_jacobian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_jacobian build --build-base /home/danushkara/TDCR_ws/build/tdcr_jacobian/build install --record /home/danushkara/TDCR_ws/build/tdcr_jacobian/install.log --single-version-externally-managed install_data
+[2.483s] running egg_info
+[2.483s] creating ../../build/tdcr_jacobian/tdcr_jacobian.egg-info
+[2.483s] writing ../../build/tdcr_jacobian/tdcr_jacobian.egg-info/PKG-INFO
+[2.484s] writing dependency_links to ../../build/tdcr_jacobian/tdcr_jacobian.egg-info/dependency_links.txt
+[2.484s] writing entry points to ../../build/tdcr_jacobian/tdcr_jacobian.egg-info/entry_points.txt
+[2.484s] writing requirements to ../../build/tdcr_jacobian/tdcr_jacobian.egg-info/requires.txt
+[2.484s] writing top-level names to ../../build/tdcr_jacobian/tdcr_jacobian.egg-info/top_level.txt
+[2.484s] writing manifest file '../../build/tdcr_jacobian/tdcr_jacobian.egg-info/SOURCES.txt'
+[2.487s] reading manifest file '../../build/tdcr_jacobian/tdcr_jacobian.egg-info/SOURCES.txt'
+[2.487s] writing manifest file '../../build/tdcr_jacobian/tdcr_jacobian.egg-info/SOURCES.txt'
+[2.487s] running build
+[2.488s] running build_py
+[2.488s] creating /home/danushkara/TDCR_ws/build/tdcr_jacobian/build
+[2.488s] creating /home/danushkara/TDCR_ws/build/tdcr_jacobian/build/lib
+[2.488s] creating /home/danushkara/TDCR_ws/build/tdcr_jacobian/build/lib/tdcr_jacobian
+[2.488s] copying tdcr_jacobian/__init__.py -> /home/danushkara/TDCR_ws/build/tdcr_jacobian/build/lib/tdcr_jacobian
+[2.488s] running install
+[2.492s] running install_lib
+[2.492s] creating /home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages/tdcr_jacobian
+[2.492s] copying /home/danushkara/TDCR_ws/build/tdcr_jacobian/build/lib/tdcr_jacobian/__init__.py -> /home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages/tdcr_jacobian
+[2.492s] byte-compiling /home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages/tdcr_jacobian/__init__.py to __init__.cpython-310.pyc
+[2.495s] running install_data
+[2.496s] creating /home/danushkara/TDCR_ws/install/tdcr_jacobian/share/ament_index
+[2.496s] creating /home/danushkara/TDCR_ws/install/tdcr_jacobian/share/ament_index/resource_index
+[2.496s] creating /home/danushkara/TDCR_ws/install/tdcr_jacobian/share/ament_index/resource_index/packages
+[2.496s] copying resource/tdcr_jacobian -> /home/danushkara/TDCR_ws/install/tdcr_jacobian/share/ament_index/resource_index/packages
+[2.496s] copying package.xml -> /home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian
+[2.496s] running install_egg_info
+[2.496s] Copying ../../build/tdcr_jacobian/tdcr_jacobian.egg-info to /home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages/tdcr_jacobian-0.0.0-py3.10.egg-info
+[2.497s] running install_scripts
+[2.665s] writing list of installed files to '/home/danushkara/TDCR_ws/build/tdcr_jacobian/install.log'
+[2.703s] Invoked command in '/home/danushkara/TDCR_ws/src/tdcr_jacobian' returned '0': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_jacobian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_jacobian build --build-base /home/danushkara/TDCR_ws/build/tdcr_jacobian/build install --record /home/danushkara/TDCR_ws/build/tdcr_jacobian/install.log --single-version-externally-managed install_data
