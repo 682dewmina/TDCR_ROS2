@@ -1,0 +1,216 @@
+[0.072s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tdcr_kinematics', 'tdcr_jacobian']
+[0.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tdcr_kinematics', 'tdcr_jacobian'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2801969ea0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2801969990>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2801969990>>)
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.168s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/danushkara/TDCR_ws'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_bringup) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdcr_bringup' with type 'ros.ament_python' and name 'tdcr_bringup'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_control) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdcr_control' with type 'ros.ament_cmake' and name 'tdcr_control'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_description) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdcr_description' with type 'ros.ament_cmake' and name 'tdcr_description'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/tdcr_jacobian'
+[0.180s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/tdcr_jacobian': Error(s) in package 'src/tdcr_jacobian/package.xml':
+Error(s):
+- The generic dependency on 'rclpy' is redundant with: exec_depend
+- The generic dependency on 'std_msgs' is redundant with: exec_depend
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'python'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/tdcr_jacobian' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_jacobian) by extension 'python_setup_py'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdcr_jacobian' with type 'python' and name 'tdcr_jacobian'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/tdcr_kinematics': Error(s) in package 'src/tdcr_kinematics/package.xml':
+The manifest contains invalid XML:
+junk after document element: line 4, column 0
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'python'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/tdcr_kinematics' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tdcr_kinematics) by extension 'python_setup_py'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tdcr_kinematics' with type 'python' and name 'tdcr_kinematics'
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.528s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tdcr_bringup' in 'src/tdcr_bringup'
+[0.528s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tdcr_control' in 'src/tdcr_control'
+[0.528s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tdcr_description' in 'src/tdcr_description'
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.529s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/danushkara/TDCR_ws/install
+[0.530s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[0.532s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'cmake_target' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'cmake_clean_cache' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'cmake_clean_first' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'cmake_force_configure' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'ament_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'catkin_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'tdcr_jacobian' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.560s] DEBUG:colcon.colcon_core.verb:Building package 'tdcr_jacobian' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/danushkara/TDCR_ws/build/tdcr_jacobian', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/danushkara/TDCR_ws/install/tdcr_jacobian', 'merge_install': False, 'path': '/home/danushkara/TDCR_ws/src/tdcr_jacobian', 'symlink_install': False, 'test_result_base': None}
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'tdcr_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.561s] DEBUG:colcon.colcon_core.verb:Building package 'tdcr_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/danushkara/TDCR_ws/build/tdcr_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/danushkara/TDCR_ws/install/tdcr_kinematics', 'merge_install': False, 'path': '/home/danushkara/TDCR_ws/src/tdcr_kinematics', 'symlink_install': False, 'test_result_base': None}
+[0.561s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.562s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.562s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/danushkara/TDCR_ws/src/tdcr_jacobian'
+[0.564s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/danushkara/TDCR_ws/src/tdcr_kinematics'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/danushkara/TDCR_ws/src/tdcr_jacobian': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_jacobian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_jacobian build --build-base /home/danushkara/TDCR_ws/build/tdcr_jacobian/build install --record /home/danushkara/TDCR_ws/build/tdcr_jacobian/install.log --single-version-externally-managed install_data
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/danushkara/TDCR_ws/src/tdcr_kinematics': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_kinematics build --build-base /home/danushkara/TDCR_ws/build/tdcr_kinematics/build install --record /home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log --single-version-externally-managed install_data
+[1.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/danushkara/TDCR_ws/src/tdcr_jacobian' returned '0': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_jacobian/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_jacobian build --build-base /home/danushkara/TDCR_ws/build/tdcr_jacobian/build install --record /home/danushkara/TDCR_ws/build/tdcr_jacobian/install.log --single-version-externally-managed install_data
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_jacobian' for CMake module files
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_jacobian' for CMake config files
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_jacobian/lib'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_jacobian/bin'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/pkgconfig/tdcr_jacobian.pc'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_jacobian/lib/python3.10/site-packages'
+[1.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdcr_jacobian', 'pythonpath')
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/hook/pythonpath.ps1'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/hook/pythonpath.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/hook/pythonpath.sh'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_jacobian/bin'
+[1.214s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tdcr_jacobian)
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/package.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/package.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/package.sh'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/package.bash'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/tdcr_jacobian/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/danushkara/TDCR_ws/install/tdcr_jacobian/share/colcon-core/packages/tdcr_jacobian)
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_kinematics' for CMake module files
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_kinematics' for CMake config files
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/danushkara/TDCR_ws/src/tdcr_kinematics' returned '0': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_kinematics build --build-base /home/danushkara/TDCR_ws/build/tdcr_kinematics/build install --record /home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log --single-version-externally-managed install_data
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_kinematics/bin'
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/pkgconfig/tdcr_kinematics.pc'
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages'
+[1.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('tdcr_kinematics', 'pythonpath')
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/hook/pythonpath.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/hook/pythonpath.dsv'
+[1.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/hook/pythonpath.sh'
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/danushkara/TDCR_ws/install/tdcr_kinematics/bin'
+[1.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tdcr_kinematics)
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/package.ps1'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/package.dsv'
+[1.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/package.sh'
+[1.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/package.bash'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics/package.zsh'
+[1.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/danushkara/TDCR_ws/install/tdcr_kinematics/share/colcon-core/packages/tdcr_kinematics)
+[1.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.392s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.396s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.396s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.396s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.409s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danushkara/TDCR_ws/install/local_setup.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/danushkara/TDCR_ws/install/_local_setup_util_ps1.py'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danushkara/TDCR_ws/install/setup.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danushkara/TDCR_ws/install/local_setup.sh'
+[1.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/danushkara/TDCR_ws/install/_local_setup_util_sh.py'
+[1.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danushkara/TDCR_ws/install/setup.sh'
+[1.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danushkara/TDCR_ws/install/local_setup.bash'
+[1.416s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danushkara/TDCR_ws/install/setup.bash'
+[1.416s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/danushkara/TDCR_ws/install/local_setup.zsh'
+[1.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/danushkara/TDCR_ws/install/setup.zsh'

@@ -1,0 +1,33 @@
+[2.173s] Invoking command in '/home/danushkara/TDCR_ws/src/tdcr_kinematics': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_kinematics build --build-base /home/danushkara/TDCR_ws/build/tdcr_kinematics/build install --record /home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log --single-version-externally-managed install_data
+[2.496s] running egg_info
+[2.497s] creating ../../build/tdcr_kinematics/tdcr_kinematics.egg-info
+[2.497s] writing ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/PKG-INFO
+[2.498s] writing dependency_links to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/dependency_links.txt
+[2.498s] writing entry points to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/entry_points.txt
+[2.498s] writing requirements to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/requires.txt
+[2.498s] writing top-level names to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/top_level.txt
+[2.499s] writing manifest file '../../build/tdcr_kinematics/tdcr_kinematics.egg-info/SOURCES.txt'
+[2.501s] reading manifest file '../../build/tdcr_kinematics/tdcr_kinematics.egg-info/SOURCES.txt'
+[2.502s] writing manifest file '../../build/tdcr_kinematics/tdcr_kinematics.egg-info/SOURCES.txt'
+[2.502s] running build
+[2.502s] running build_py
+[2.503s] creating /home/danushkara/TDCR_ws/build/tdcr_kinematics/build
+[2.503s] creating /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib
+[2.503s] creating /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics
+[2.503s] copying tdcr_kinematics/__init__.py -> /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics
+[2.504s] running install
+[2.512s] running install_lib
+[2.512s] creating /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics
+[2.512s] copying /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics/__init__.py -> /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics
+[2.512s] byte-compiling /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics/__init__.py to __init__.cpython-310.pyc
+[2.512s] running install_data
+[2.512s] creating /home/danushkara/TDCR_ws/install/tdcr_kinematics/share/ament_index
+[2.512s] creating /home/danushkara/TDCR_ws/install/tdcr_kinematics/share/ament_index/resource_index
+[2.512s] creating /home/danushkara/TDCR_ws/install/tdcr_kinematics/share/ament_index/resource_index/packages
+[2.512s] copying resource/tdcr_kinematics -> /home/danushkara/TDCR_ws/install/tdcr_kinematics/share/ament_index/resource_index/packages
+[2.512s] copying package.xml -> /home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics
+[2.512s] running install_egg_info
+[2.514s] Copying ../../build/tdcr_kinematics/tdcr_kinematics.egg-info to /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics-0.0.0-py3.10.egg-info
+[2.514s] running install_scripts
+[2.546s] writing list of installed files to '/home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log'
+[2.587s] Invoked command in '/home/danushkara/TDCR_ws/src/tdcr_kinematics' returned '0': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_kinematics build --build-base /home/danushkara/TDCR_ws/build/tdcr_kinematics/build install --record /home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log --single-version-externally-managed install_data

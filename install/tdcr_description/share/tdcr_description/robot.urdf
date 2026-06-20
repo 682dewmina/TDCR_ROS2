@@ -1,0 +1,477 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape document_id: b41dd6261b6b10c837374294 -->
+<robot name="tdcr_arm">
+  <!-- Link base_link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-0.0546112 -0.422582 -0.206593" rpy="0 0 0"/>
+      <mass value="0.0783831"/>
+      <inertia ixx="9.2083e-05" ixy="-6.43112e-06" ixz="1.97561e-05" iyy="8.61974e-05" iyz="-1.2209e-05" izz="0.000101188"/>
+    </inertial>
+    <!-- Part disc_base -->
+    <visual>
+      <origin xyz="-0.0598462 -0.419333 -0.21223" rpy="0.0280153 0.719173 -0.517735"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc_base.stl"/>
+      </geometry>
+      <material name="disc_base_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0598462 -0.419333 -0.21223" rpy="0.0280153 0.719173 -0.517735"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc_base.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part base_link -->
+    <visual>
+      <origin xyz="-0.0581711 -0.420384 -0.209974" rpy="-3.11358 0.719173 -0.517735"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/base_link.stl"/>
+      </geometry>
+      <material name="base_link_material">
+        <color rgba="0.4 0.4 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0581711 -0.420384 -0.209974" rpy="-3.11358 0.719173 -0.517735"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/base_link.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part joint_1 -->
+    <visual>
+      <origin xyz="-0.0207624 -0.44385 -0.159586" rpy="1.59881 0.719173 -0.517735"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0207624 -0.44385 -0.159586" rpy="1.59881 0.719173 -0.517735"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link spinner_1 -->
+  <link name="spinner_1">
+    <inertial>
+      <origin xyz="-0 -0 -0.00954198" rpy="0 0 0"/>
+      <mass value="0.0100973"/>
+      <inertia ixx="9.79971e-07" ixy="0" ixz="0" iyy="7.56173e-07" iyz="-0" izz="7.75701e-07"/>
+    </inertial>
+    <!-- Part spinner_1 -->
+    <visual>
+      <origin xyz="0 0 -0.00954198" rpy="1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+      <material name="spinner_1_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.00954198" rpy="1.5708 -0 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link disc -->
+  <link name="disc">
+    <inertial>
+      <origin xyz="-0.0424264 -0.0424264 0.01" rpy="0 0 0"/>
+      <mass value="0.0562747"/>
+      <inertia ixx="3.2454e-05" ixy="-2.00916e-05" ixz="-0" iyy="3.2454e-05" iyz="0" izz="5.17152e-05"/>
+    </inertial>
+    <!-- Part joint_1_2 -->
+    <visual>
+      <origin xyz="0.00707107 0.00707107 0.01" rpy="-0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_2_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00707107 0.00707107 0.01" rpy="-0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part joint_1_3 -->
+    <visual>
+      <origin xyz="-0.0919239 -0.0919239 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_3_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0919239 -0.0919239 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part disc -->
+    <visual>
+      <origin xyz="-0.0403051 -0.0403051 0.01" rpy="-1.5708 -0 2.35619"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+      <material name="disc_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0403051 -0.0403051 0.01" rpy="-1.5708 -0 2.35619"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part disc_2 -->
+    <visual>
+      <origin xyz="-0.0445477 -0.0445477 0.01" rpy="-2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+      <material name="disc_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0445477 -0.0445477 0.01" rpy="-2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link spinner_1_2 -->
+  <link name="spinner_1_2">
+    <inertial>
+      <origin xyz="0 0 -0.01" rpy="0 0 0"/>
+      <mass value="0.0100973"/>
+      <inertia ixx="9.79971e-07" ixy="0" ixz="-0" iyy="7.75701e-07" iyz="-0" izz="7.56173e-07"/>
+    </inertial>
+    <!-- Part spinner_1_2 -->
+    <visual>
+      <origin xyz="0 0 -0.01" rpy="-0 -0 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+      <material name="spinner_1_2_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.01" rpy="-0 -0 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link joint_1 -->
+  <link name="joint_1">
+    <inertial>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0 0 0"/>
+      <mass value="0.0562747"/>
+      <inertia ixx="3.22464e-05" ixy="-1.9884e-05" ixz="-9e-12" iyy="3.22464e-05" iyz="-1e-12" izz="5.21304e-05"/>
+    </inertial>
+    <!-- Part joint_1_4 -->
+    <visual>
+      <origin xyz="-0.00707107 -0.00707107 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_4_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00707107 -0.00707107 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part disc_3 -->
+    <visual>
+      <origin xyz="0.0445477 0.0445477 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+      <material name="disc_3_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0445477 0.0445477 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part disc_4 -->
+    <visual>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+      <material name="disc_4_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part joint_1_5 -->
+    <visual>
+      <origin xyz="0.0919239 0.0919239 0.01" rpy="0 0 -0.785398"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_5_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0919239 0.0919239 0.01" rpy="0 0 -0.785398"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link spinner_1_3 -->
+  <link name="spinner_1_3">
+    <inertial>
+      <origin xyz="-0 0 -0.01" rpy="0 0 0"/>
+      <mass value="0.0100973"/>
+      <inertia ixx="9.79971e-07" ixy="-0" ixz="0" iyy="7.75701e-07" iyz="0" izz="7.56173e-07"/>
+    </inertial>
+    <!-- Part spinner_1_3 -->
+    <visual>
+      <origin xyz="0 0 -0.01" rpy="0 -0 -0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+      <material name="spinner_1_3_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.01" rpy="0 -0 -0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link joint_1_2 -->
+  <link name="joint_1_2">
+    <inertial>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0 0 0"/>
+      <mass value="0.0562747"/>
+      <inertia ixx="3.22464e-05" ixy="-1.9884e-05" ixz="-9e-12" iyy="3.22464e-05" iyz="-1e-12" izz="5.21304e-05"/>
+    </inertial>
+    <!-- Part joint_1_6 -->
+    <visual>
+      <origin xyz="-0.00707107 -0.00707107 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_6_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00707107 -0.00707107 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part joint_1_7 -->
+    <visual>
+      <origin xyz="0.0919239 0.0919239 0.01" rpy="-0 0 -0.785398"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_7_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0919239 0.0919239 0.01" rpy="-0 0 -0.785398"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part disc_5 -->
+    <visual>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+      <material name="disc_5_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part disc_6 -->
+    <visual>
+      <origin xyz="0.0445477 0.0445477 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+      <material name="disc_6_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0445477 0.0445477 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link spinner_1_4 -->
+  <link name="spinner_1_4">
+    <inertial>
+      <origin xyz="-0 -0 -0.01" rpy="0 0 0"/>
+      <mass value="0.0100973"/>
+      <inertia ixx="9.79971e-07" ixy="0" ixz="-0" iyy="7.75701e-07" iyz="-0" izz="7.56173e-07"/>
+    </inertial>
+    <!-- Part spinner_1_4 -->
+    <visual>
+      <origin xyz="-0 -0 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+      <material name="spinner_1_4_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0 -0 -0.01" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/spinner_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link disc_2 -->
+  <link name="disc_2">
+    <inertial>
+      <origin xyz="0.026462 0.026462 0.01" rpy="0 0 0"/>
+      <mass value="0.0281374"/>
+      <inertia ixx="9.05587e-06" ixy="-2.87466e-06" ixz="-0" iyy="9.05586e-06" iyz="4e-12" izz="1.15153e-05"/>
+    </inertial>
+    <!-- Part joint_1_8 -->
+    <visual>
+      <origin xyz="-0.00707107 -0.00707107 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+      <material name="joint_1_8_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.00707107 -0.00707107 0.01" rpy="2.35619 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/joint_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part disc_7 -->
+    <visual>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+      <material name="disc_7_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0424264 0.0424264 0.01" rpy="0.785398 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://tdcr_description/assets/disc.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from spinner_1_4 to disc_2 -->
+  <joint name="joint7" type="revolute">
+    <origin xyz="-0 0.00954198 -0.01" rpy="1.5708 0 0"/>
+    <parent link="spinner_1_4"/>
+    <child link="disc_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+  <!-- Joint from joint_1_2 to spinner_1_4 -->
+  <joint name="joint8" type="revolute">
+    <origin xyz="0.0777817 0.0919239 0.01" rpy="-1.5708 0.785398 0.785398"/>
+    <parent link="joint_1_2"/>
+    <child link="spinner_1_4"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+  <!-- Joint from spinner_1_3 to joint_1_2 -->
+  <joint name="joint5" type="revolute">
+    <origin xyz="0 0.00954198 -0.01" rpy="1.5708 -0 -0"/>
+    <parent link="spinner_1_3"/>
+    <child link="joint_1_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+  <!-- Joint from joint_1 to spinner_1_3 -->
+  <joint name="joint6" type="revolute">
+    <origin xyz="0.0777817 0.0919239 0.01" rpy="-1.5708 0.785398 0.785398"/>
+    <parent link="joint_1"/>
+    <child link="spinner_1_3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+  <!-- Joint from spinner_1_2 to joint_1 -->
+  <joint name="joint3" type="revolute">
+    <origin xyz="0 0.00954198 -0.01" rpy="1.5708 -0 0"/>
+    <parent link="spinner_1_2"/>
+    <child link="joint_1"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+  <!-- Joint from disc to spinner_1_2 -->
+  <joint name="joint4" type="revolute">
+    <origin xyz="-0.0848528 -0.0848528 0" rpy="-3.14159 -0 3.14159"/>
+    <parent link="disc"/>
+    <child link="spinner_1_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+  <!-- Joint from spinner_1 to disc -->
+  <joint name="joint2" type="revolute">
+    <origin xyz="0 -0.01 -0.00954198" rpy="-1.5708 -0 0"/>
+    <parent link="spinner_1"/>
+    <child link="disc"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+  <!-- Joint from base_link to spinner_1 -->
+  <joint name="joint1" type="revolute">
+    <origin xyz="-0.0328833 -0.436624 -0.160519" rpy="0.665295 0.578401 -2.69707"/>
+    <parent link="base_link"/>
+    <child link="spinner_1"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="0"/>
+  </joint>
+</robot>

@@ -1,0 +1,27 @@
+[2.334s] Invoking command in '/home/danushkara/TDCR_ws/src/tdcr_kinematics': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_kinematics build --build-base /home/danushkara/TDCR_ws/build/tdcr_kinematics/build install --record /home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log --single-version-externally-managed install_data
+[2.974s] running egg_info
+[2.987s] writing ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/PKG-INFO
+[3.012s] writing dependency_links to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/dependency_links.txt
+[3.016s] writing entry points to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/entry_points.txt
+[3.016s] writing requirements to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/requires.txt
+[3.034s] writing top-level names to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/top_level.txt
+[3.037s] reading manifest file '../../build/tdcr_kinematics/tdcr_kinematics.egg-info/SOURCES.txt'
+[3.041s] writing manifest file '../../build/tdcr_kinematics/tdcr_kinematics.egg-info/SOURCES.txt'
+[3.042s] running build
+[3.042s] running build_py
+[3.049s] copying tdcr_kinematics/prb_kinematics.py -> /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics
+[3.049s] copying tdcr_kinematics/kinematics_node.py -> /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics
+[3.049s] running install
+[3.050s] running install_lib
+[3.053s] copying /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics/prb_kinematics.py -> /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics
+[3.056s] copying /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics/kinematics_node.py -> /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics
+[3.068s] byte-compiling /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics/prb_kinematics.py to prb_kinematics.cpython-310.pyc
+[3.068s] byte-compiling /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics/kinematics_node.py to kinematics_node.cpython-310.pyc
+[3.068s] running install_data
+[3.099s] copying package.xml -> /home/danushkara/TDCR_ws/install/tdcr_kinematics/share/tdcr_kinematics
+[3.099s] running install_egg_info
+[3.100s] Copying ../../build/tdcr_kinematics/tdcr_kinematics.egg-info to /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics-0.0.1-py3.10.egg-info
+[3.100s] running install_scripts
+[3.164s] Installing kinematics_node script to /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/tdcr_kinematics
+[3.164s] writing list of installed files to '/home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log'
+[3.237s] Invoked command in '/home/danushkara/TDCR_ws/src/tdcr_kinematics' returned '0': PYTHONPATH=/home/danushkara/TDCR_ws/build/tdcr_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tdcr_kinematics build --build-base /home/danushkara/TDCR_ws/build/tdcr_kinematics/build install --record /home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log --single-version-externally-managed install_data

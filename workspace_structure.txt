@@ -1,0 +1,1099 @@
+.
+├── build
+│   ├── .built_by
+│   ├── COLCON_IGNORE
+│   ├── tdcr_bringup
+│   │   ├── build
+│   │   │   └── lib
+│   │   │       └── tdcr_bringup
+│   │   │           └── __init__.py
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_setup_py.sh
+│   │   ├── colcon_command_prefix_setup_py.sh.env
+│   │   ├── install.log
+│   │   ├── prefix_override
+│   │   │   ├── __pycache__
+│   │   │   │   └── sitecustomize.cpython-310.pyc
+│   │   │   └── sitecustomize.py
+│   │   └── tdcr_bringup.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── entry_points.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       ├── top_level.txt
+│   │       └── zip-safe
+│   ├── tdcr_control
+│   │   ├── ament_cmake_core
+│   │   │   ├── package.cmake
+│   │   │   ├── stamps
+│   │   │   │   ├── ament_prefix_path.sh.stamp
+│   │   │   │   ├── nameConfig.cmake.in.stamp
+│   │   │   │   ├── nameConfig-version.cmake.in.stamp
+│   │   │   │   ├── package_xml_2_cmake.py.stamp
+│   │   │   │   ├── package.xml.stamp
+│   │   │   │   ├── path.sh.stamp
+│   │   │   │   └── templates_2_cmake.py.stamp
+│   │   │   ├── tdcr_controlConfig.cmake
+│   │   │   └── tdcr_controlConfig-version.cmake
+│   │   ├── ament_cmake_environment_hooks
+│   │   │   ├── ament_prefix_path.dsv
+│   │   │   ├── local_setup.bash
+│   │   │   ├── local_setup.dsv
+│   │   │   ├── local_setup.sh
+│   │   │   ├── local_setup.zsh
+│   │   │   ├── package.dsv
+│   │   │   └── path.dsv
+│   │   ├── ament_cmake_index
+│   │   │   └── share
+│   │   │       └── ament_index
+│   │   │           └── resource_index
+│   │   │               ├── package_run_dependencies
+│   │   │               │   └── tdcr_control
+│   │   │               ├── packages
+│   │   │               │   └── tdcr_control
+│   │   │               └── parent_prefix_path
+│   │   │                   └── tdcr_control
+│   │   ├── ament_cmake_package_templates
+│   │   │   └── templates.cmake
+│   │   ├── ament_cmake_uninstall_target
+│   │   │   └── ament_cmake_uninstall_target.cmake
+│   │   ├── ament_lint_cmake
+│   │   ├── ament_xmllint
+│   │   ├── .cmake
+│   │   │   └── api
+│   │   │       └── v1
+│   │   │           ├── query
+│   │   │           │   └── client-colcon-cmake
+│   │   │           │       └── codemodel-v2
+│   │   │           └── reply
+│   │   │               ├── codemodel-v2-cd30109aeda676b90a50.json
+│   │   │               ├── directory-.-84444efa2f4dd476b298.json
+│   │   │               ├── index-2026-06-16T07-11-27-0615.json
+│   │   │               ├── target-tdcr_control_uninstall-99023001dea069722731.json
+│   │   │               └── target-uninstall-5fba1ac5b1b0f8824387.json
+│   │   ├── cmake_args.last
+│   │   ├── CMakeCache.txt
+│   │   ├── CMakeFiles
+│   │   │   ├── 3.22.1
+│   │   │   │   ├── CMakeCCompiler.cmake
+│   │   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   │   ├── CMakeSystem.cmake
+│   │   │   │   ├── CompilerIdC
+│   │   │   │   │   ├── a.out
+│   │   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   │   └── tmp
+│   │   │   │   └── CompilerIdCXX
+│   │   │   │       ├── a.out
+│   │   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │   │       └── tmp
+│   │   │   ├── cmake.check_cache
+│   │   │   ├── CMakeDirectoryInformation.cmake
+│   │   │   ├── CMakeOutput.log
+│   │   │   ├── CMakeRuleHashes.txt
+│   │   │   ├── CMakeTmp
+│   │   │   ├── Makefile2
+│   │   │   ├── Makefile.cmake
+│   │   │   ├── progress.marks
+│   │   │   ├── TargetDirectories.txt
+│   │   │   ├── tdcr_control_uninstall.dir
+│   │   │   │   ├── build.make
+│   │   │   │   ├── cmake_clean.cmake
+│   │   │   │   ├── compiler_depend.make
+│   │   │   │   ├── compiler_depend.ts
+│   │   │   │   ├── DependInfo.cmake
+│   │   │   │   └── progress.make
+│   │   │   └── uninstall.dir
+│   │   │       ├── build.make
+│   │   │       ├── cmake_clean.cmake
+│   │   │       ├── compiler_depend.make
+│   │   │       ├── compiler_depend.ts
+│   │   │       ├── DependInfo.cmake
+│   │   │       └── progress.make
+│   │   ├── cmake_install.cmake
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_build.sh
+│   │   ├── colcon_command_prefix_build.sh.env
+│   │   ├── CTestConfiguration.ini
+│   │   ├── CTestCustom.cmake
+│   │   ├── CTestTestfile.cmake
+│   │   ├── install_manifest.txt
+│   │   └── Makefile
+│   ├── tdcr_description
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_setup_py.sh
+│   │   ├── colcon_command_prefix_setup_py.sh.env
+│   │   ├── install.log
+│   │   ├── prefix_override
+│   │   │   ├── __pycache__
+│   │   │   │   └── sitecustomize.cpython-310.pyc
+│   │   │   └── sitecustomize.py
+│   │   └── tdcr_description.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── entry_points.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       ├── top_level.txt
+│   │       └── zip-safe
+│   ├── tdcr_jacobian
+│   │   ├── build
+│   │   │   └── lib
+│   │   │       └── tdcr_jacobian
+│   │   │           └── __init__.py
+│   │   ├── colcon_build.rc
+│   │   ├── colcon_command_prefix_setup_py.sh
+│   │   ├── colcon_command_prefix_setup_py.sh.env
+│   │   ├── install.log
+│   │   ├── prefix_override
+│   │   │   ├── __pycache__
+│   │   │   │   └── sitecustomize.cpython-310.pyc
+│   │   │   └── sitecustomize.py
+│   │   └── tdcr_jacobian.egg-info
+│   │       ├── dependency_links.txt
+│   │       ├── entry_points.txt
+│   │       ├── PKG-INFO
+│   │       ├── requires.txt
+│   │       ├── SOURCES.txt
+│   │       ├── top_level.txt
+│   │       └── zip-safe
+│   └── tdcr_kinematics
+│       ├── build
+│       │   └── lib
+│       │       └── tdcr_kinematics
+│       │           └── __init__.py
+│       ├── colcon_build.rc
+│       ├── colcon_command_prefix_setup_py.sh
+│       ├── colcon_command_prefix_setup_py.sh.env
+│       ├── install.log
+│       ├── prefix_override
+│       │   ├── __pycache__
+│       │   │   └── sitecustomize.cpython-310.pyc
+│       │   └── sitecustomize.py
+│       └── tdcr_kinematics.egg-info
+│           ├── dependency_links.txt
+│           ├── entry_points.txt
+│           ├── PKG-INFO
+│           ├── requires.txt
+│           ├── SOURCES.txt
+│           ├── top_level.txt
+│           └── zip-safe
+├── .git
+│   ├── branches
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       └── heads
+│   │           └── main
+│   ├── objects
+│   │   ├── 01
+│   │   │   └── 5ebb064181fd0c54c20ed3bfdd4411ff515928
+│   │   ├── 02
+│   │   │   ├── 0be21b5b0aefa0f346dd7f3fdb806af38cd2e3
+│   │   │   ├── 1a2dfa46e796070ec12a06a555780ddc7dfe0b
+│   │   │   └── e441b753539b4cf0c89e115f69b00b1dbf8460
+│   │   ├── 03
+│   │   │   ├── f00256c1a126057ca924bdd48ec74444b0cc10
+│   │   │   ├── f611b55e4d23e1a52036bdbb303a3dcd23d72d
+│   │   │   └── fe4bfc41d1e7fcb2330068bb39ffb80e0d7642
+│   │   ├── 04
+│   │   │   └── c3ec47803c3453b386754f6add57ccc8aa9aed
+│   │   ├── 06
+│   │   │   ├── 1a7400bad8e48183b62ee9878c5d5ff2754c1d
+│   │   │   ├── a90d033830acf12963d15e8925d49ae0675d9d
+│   │   │   └── e74acb63e6917bd1f0f8853213d49f0c5978e4
+│   │   ├── 07
+│   │   │   └── f44d6c3488e52456487ce597a6c5eb5bebb0b1
+│   │   ├── 08
+│   │   │   └── 26acb22994463b17876815da267bfa33b82a7f
+│   │   ├── 09
+│   │   │   └── f6661133290632d8f8809528e812fcb722699a
+│   │   ├── 0a
+│   │   │   └── 2158e3db19eacdf238e38990ca6e4dbfc01d17
+│   │   ├── 0c
+│   │   │   ├── 4e9dcd0e8b5b978760965d6bb2142b0c8ca4ef
+│   │   │   └── 81fda8bb4ea867faa890dae4579a3b65ec432a
+│   │   ├── 0d
+│   │   │   └── 3c65b90b8357af96da928ec3a7c0634d4af467
+│   │   ├── 0e
+│   │   │   └── 13ba29501eb261a2a24687c95c562685985a8d
+│   │   ├── 0f
+│   │   │   ├── b4e81f5f7a1bb2ed1c0d8123f22657aa46d180
+│   │   │   ├── ccb619c9d029455016412c2abf00406026504a
+│   │   │   └── d60a3f9adf83baabe767c83a6003b93f0bcedf
+│   │   ├── 10
+│   │   │   ├── 9523174a8ed12fa81a23a5372a2b9f9588c036
+│   │   │   └── ea0f7c07fc65970700c546e311a3eb2515e713
+│   │   ├── 11
+│   │   │   └── d59e733a321d86d38adad4c65fde244cfc0680
+│   │   ├── 13
+│   │   │   └── 56c9e2150ebdf6d1cf0824171ecdc62eca44ab
+│   │   ├── 14
+│   │   │   ├── 253db5d5378988b2b60257172c0f221b58d58c
+│   │   │   ├── 26482b7e92cabb0a7cd37a261b4c989c938ae7
+│   │   │   ├── 6208dc1744b80241653b13d63493a8766b32d5
+│   │   │   ├── 73b1d679442bef04cd265161261a5d66d81c62
+│   │   │   ├── 8bdbc019adcea76790cb712d5d16f459ab277d
+│   │   │   ├── 956f319e3982ef0886cb4e45e5b67437a99b2a
+│   │   │   └── a68b278ade984a1a5d091fdc972a8f062d33c0
+│   │   ├── 17
+│   │   │   └── 6e6e27a1cd12f532ceb4d1d40dda8df886206b
+│   │   ├── 18
+│   │   │   ├── b838e456c6da5f7ad538e128491f0169ca0498
+│   │   │   └── df6b6b783686003afd6a0e601e9a4e6e50cc3d
+│   │   ├── 1b
+│   │   │   └── 1d5f4239a95f6624d0bcd7ee061b3aeb1284c1
+│   │   ├── 1d
+│   │   │   ├── aefdd69abfeb383f54bc5c95f53ce99a9cb076
+│   │   │   └── ee4972fb97613b7a2efd49e94a7f55c2d9dba7
+│   │   ├── 21
+│   │   │   ├── 1ec5c48e80b96eb2c9629f511155c0f880e82c
+│   │   │   ├── 6fc648f08ec57bf47dbeae9eed937ffe9238f4
+│   │   │   └── 9574eae872ed21143108302d7e5c28c2b349df
+│   │   ├── 22
+│   │   │   └── f5f672d004bb5c94ee9a7d3e83336182b6d90e
+│   │   ├── 24
+│   │   │   └── b82ae8b88ac6b1243490af60b691bc09a8298a
+│   │   ├── 25
+│   │   │   ├── 28d03c5f44010a2448dc08fc5411f8c29a9bbb
+│   │   │   ├── 5427521010965c768d7b1a23c0ec1beb80ac0f
+│   │   │   ├── 7067d44dde1ca226afa26a3def27b5e9ee7cbb
+│   │   │   ├── b57250501d66ad054385abedc39628429002c8
+│   │   │   └── c62a8c3cb40764ac539370df9ec347bdd99b79
+│   │   ├── 26
+│   │   │   ├── 69052a85cacb0adbd85e7e10c6ff4f94992704
+│   │   │   ├── b99975794bb42ea3d6a17150e313cbfc45fc24
+│   │   │   └── cb13837223ebd606d671afe7d4f0a4fe2f8746
+│   │   ├── 27
+│   │   │   └── ee1078ff077cc3a0fec75b7d023101a68164d1
+│   │   ├── 28
+│   │   │   └── 17bf647a5db02e42ecfd49632105caadc96855
+│   │   ├── 29
+│   │   │   ├── c5d088a3e3c50b10f67018a4640cea349ebe91
+│   │   │   ├── d55b6ce72d9058b2bdeba76e48be1d774929f7
+│   │   │   └── f0791447181b1194a15525f2a67153e31e87fe
+│   │   ├── 2a
+│   │   │   └── f5bc6ca812730ac820a4759ca8e01641d39f53
+│   │   ├── 2b
+│   │   │   ├── 22d6a0e338331242af1c22e96a8448f00af6e9
+│   │   │   ├── 3dcfcd44ce6af05a1ad733a8194c588aa3a0d3
+│   │   │   ├── 7a224e2fab2ebe14c3bc59f16369b5a1715f41
+│   │   │   └── afb70ef2d513d019ef6bbf16908e42b0217b4e
+│   │   ├── 2c
+│   │   │   └── d90da3e0eaf8040d1d6b1a74ddc5e253218b43
+│   │   ├── 2d
+│   │   │   └── 7444793d3301a7632b88dcb35ece815ce5dde2
+│   │   ├── 30
+│   │   │   ├── 36d9d0fa59076e99f2f3ca03789e1501e0c67d
+│   │   │   ├── 82a7dc5d5df2d71d2fb5d0f8eb855839a3a50a
+│   │   │   └── 8f3fa2a4837a70a6ac7c0db505a84f3d051870
+│   │   ├── 31
+│   │   │   ├── 13e2dfeaad270170482715c333fba3a71e441d
+│   │   │   └── dab89198bbee9d3f14b9e164045f30e80bd498
+│   │   ├── 32
+│   │   │   └── caca3596290d6a3d3ec3a2cce49f623fa4023c
+│   │   ├── 33
+│   │   │   ├── 66404bc8477dd27c425c188fb033d3acee5786
+│   │   │   └── f3a70f2c3f35780c02202187f9585c1c0df42d
+│   │   ├── 34
+│   │   │   ├── 102fabcb0b1939e62a49a0a9530eb73aea5272
+│   │   │   └── 5e9307d98d4da7a2cb8a1cad976671f62ac568
+│   │   ├── 35
+│   │   │   └── cb5c418d035db2484978fa9e6b4c5ed12871d7
+│   │   ├── 36
+│   │   │   ├── 926e6ea88ce88391025f15f44d3de4845662b5
+│   │   │   ├── c0f1653bed37f44fee5f8486da15c21d2e0b01
+│   │   │   └── f74ebfe4c18ad6775c00d46b5564cc5d9561a6
+│   │   ├── 37
+│   │   │   └── cebcc11f6ed1bf7ce079c8a53af0cf3d7f511a
+│   │   ├── 38
+│   │   │   ├── 4971b46dfd26ac5eb8c1ba0834064a6085988f
+│   │   │   └── bcb6d07f7565057f3d6f7bfdfde0444f998ba2
+│   │   ├── 39
+│   │   │   └── 90e5cf920962d117b97355e71f7fb93c6afc4e
+│   │   ├── 3a
+│   │   │   ├── 135e302d5d0d7b08ea8aec48b4237c3e9634c1
+│   │   │   ├── 297248e233965db065c4aa652b8febeccc5b66
+│   │   │   └── ad5336af1f22b8088508218dceeda3d7bc8cc2
+│   │   ├── 3b
+│   │   │   └── e0a2fdbb20565d82f0ed94c5d5033b591cfa89
+│   │   ├── 3c
+│   │   │   ├── 6a6c4471ff58f964e6e89ac3397816811977cd
+│   │   │   ├── 6d9e8779050f742ec78af8a4d55abc4de7841b
+│   │   │   ├── adb7176fde78a8c5a38b5c9a492b4749a9626f
+│   │   │   └── c722c451471b3bccc549c6361c133eb25b67f4
+│   │   ├── 3d
+│   │   │   ├── 46b221c9f3733246266efd290dbe7f19896baa
+│   │   │   ├── 68663d8131fbfd6736349d6c6a5f0272a2fbc3
+│   │   │   ├── b2bfd816d2dedb118b1157fc720f164e1814f4
+│   │   │   └── ccd731726d7faa8b29d8d7dba3b981a53ca497
+│   │   ├── 3e
+│   │   │   ├── 1605ad933308d3c060eabe1bfdc16f44943e80
+│   │   │   └── 81bc3990e9bef4a6e6192127af00e501b43e97
+│   │   ├── 3f
+│   │   │   ├── 2144c25ff1862f674bbece656775251e6acc99
+│   │   │   ├── 2c8ee34a09af184a4522162c26cabbda510374
+│   │   │   └── 2d7f6ada17d8f042227a62228dec0082d69474
+│   │   ├── 40
+│   │   │   ├── 3bd0fdf3f5a63922650529a3e5c38d0bc3e912
+│   │   │   └── b6e7c339b4eae1fe54abb94ec036f24fb506d7
+│   │   ├── 41
+│   │   │   ├── b99d7783c1e447962d3183b641863e61a8edd0
+│   │   │   └── c30a48a44b3e1f7369b0ac0071555d5cd51387
+│   │   ├── 42
+│   │   │   ├── 321b2960d7cfb683c9c0bf19a7fd8b9267ced1
+│   │   │   └── a5a0336d7c1c6e6cbf0ed569ac1c8fee4dec1d
+│   │   ├── 43
+│   │   │   ├── 0ec15393bb107f34b999a01cf4b839b406c631
+│   │   │   └── 281687cc2f8203e9abc56b1ce3990479552a56
+│   │   ├── 44
+│   │   │   └── 8d748ca0980497fe6f950762239d8350555485
+│   │   ├── 47
+│   │   │   └── 498741d2b9c2367845f9feabeb4d7b7457f536
+│   │   ├── 48
+│   │   │   ├── 02952e0ad8dadf263b32683b7d79187f53bb09
+│   │   │   └── 8ad37510279ee3a1dc535c7ccd5a2cf9a69d5b
+│   │   ├── 49
+│   │   │   └── 782f2461df73f0adf9a3089784ec3e9e5edfb0
+│   │   ├── 4a
+│   │   │   └── f18322e32f3dd19579c80e26e4a306ad11e049
+│   │   ├── 4c
+│   │   │   └── 59d440b834ede20914fcec34fc462d6b297e94
+│   │   ├── 4d
+│   │   │   ├── 506b5b20f7a70ccc46220cf04da15d4333e323
+│   │   │   └── f2488a6ac18aedad9fb5c2001a93aa3ffb7423
+│   │   ├── 4e
+│   │   │   └── 711760e5244a896b87e699f78be5547cfecef2
+│   │   ├── 4f
+│   │   │   ├── 5ce26ebac6533492a1e5c1ff7cb4931f0d46a8
+│   │   │   └── 9f830a417a46d782a9eee96a0266ad1b904542
+│   │   ├── 50
+│   │   │   └── 0a66a3620a1bf1e56081e374f4ca383bc1e4f5
+│   │   ├── 51
+│   │   │   └── 3dbc5da81b30f7921c8063ddd3a581d0800c9d
+│   │   ├── 52
+│   │   │   ├── 3479ef872a3a09829cba42ad976f398e12fb5b
+│   │   │   └── ac839abad430c89c184f0661db039fb7603bf3
+│   │   ├── 53
+│   │   │   ├── 189cc18750fc88c1270690edd8011f8528196a
+│   │   │   └── d623fa07286ec763394d27bdea3c3b5f422a4b
+│   │   ├── 54
+│   │   │   └── 799fde6f8880a08b1af0c43cd976e47a2f348d
+│   │   ├── 55
+│   │   │   └── 17070784ab85235ac479a0d165eb4a6c7dbaaa
+│   │   ├── 56
+│   │   │   ├── 2b170808637db8a16d27328a0819827bc91a1d
+│   │   │   ├── a7061c79a5b9f011efa6758cb5ee56e53c1018
+│   │   │   └── eb544522d6f3cc0327d62257ed6e90e6d26d15
+│   │   ├── 57
+│   │   │   ├── 0ff8fc5e115238377b1a652416de85c7c4eba7
+│   │   │   ├── 3541ac9702dd3969c9bc859d2b91ec1f7e6e56
+│   │   │   └── ea738c8112293f2eb657333f7bd5d31c53b4c4
+│   │   ├── 58
+│   │   │   └── 27acbc7de634080a9fa0d832ffbe461e96f9f8
+│   │   ├── 59
+│   │   │   └── e0f0997973bc7e214c4c32b1c5ecd92e9cbb41
+│   │   ├── 5b
+│   │   │   ├── 6a6442bd4ee4af4750a88351fa31ab3f4079d4
+│   │   │   └── c8c688f48b46e8212c5065e6fa0169c53f7362
+│   │   ├── 5f
+│   │   │   ├── 04f9a0f064162757c8327759ab49c7e1d34ac5
+│   │   │   ├── 343ef7d4599b9ad0b56e976a922c02828e6756
+│   │   │   ├── 5796d0d496f2e5f1caaf9433511e8bc6c818fd
+│   │   │   └── e51b90a7cffbddf3ff0cd41faf315ce8ece4d1
+│   │   ├── 60
+│   │   │   └── 88b67afbaf54be2a5eb1eb2d4fb37e0c0ba9b9
+│   │   ├── 61
+│   │   │   └── 2d77906a5f89df285115f504f9b6d38619d767
+│   │   ├── 62
+│   │   │   └── 0c18c64d9733a3b802e29019faec06864c57cf
+│   │   ├── 63
+│   │   │   ├── 46dbbe94535316768450fa842f3513523f2c8f
+│   │   │   ├── 50bc15a21638499534aeac6c95a1c1c67a4929
+│   │   │   └── e57f967ca9496c5622d795c1edfeccf9f6c133
+│   │   ├── 65
+│   │   │   └── 665ecb97a7191700fe35a80a9f4a7dc7d143cd
+│   │   ├── 66
+│   │   │   ├── 0c34836dfb678ad2d087f61a86a435b6715d2b
+│   │   │   ├── 2e6f8727857cfbdf2bc85aff66858634207ee0
+│   │   │   └── 82a7d2121498743ebbf6b7407e217cc106e80d
+│   │   ├── 67
+│   │   │   ├── 9192ac393ca6cb53625e18b1747afba77be03b
+│   │   │   └── a404738259fcce614b4ea8b25b4998eaeb7737
+│   │   ├── 6b
+│   │   │   └── 187e97525de48b913a129aa8616e21ffe0e223
+│   │   ├── 6c
+│   │   │   ├── 978ba395f6374aea816989fcaea146e1b1f825
+│   │   │   └── e1f7399926f4ac3f2b54a234bc68329a823c76
+│   │   ├── 6e
+│   │   │   └── a14430362e35b07ee0723ef2e0a118aff11de5
+│   │   ├── 6f
+│   │   │   ├── 68c8dede9ed4ecb63a4eb6ac2a7450bd18ec3b
+│   │   │   └── b3fe78f611695eb723438557a965679b40b8ec
+│   │   ├── 70
+│   │   │   └── 60f068c6d1e2ac846fd00d8f77897a880c67d1
+│   │   ├── 71
+│   │   │   ├── 40abef8552c5da367b9fdd0d9443b7705af2a0
+│   │   │   └── f8fd042b6e2d2b3fe69f484ea4204ec11db192
+│   │   ├── 73
+│   │   │   └── 6364f791d93d7abeeeb3f3d7d82d0942057db2
+│   │   ├── 74
+│   │   │   └── 976e1889ff12f5c16fae849eff76b5cd5c8bc3
+│   │   ├── 76
+│   │   │   └── 95d8c8fe537051246c99b88cccff6bfd116a44
+│   │   ├── 78
+│   │   │   └── 73b2c373006850b7447b78a578338ad12249c0
+│   │   ├── 79
+│   │   │   ├── c185c38440e0447011c3f4dd8f092311d364c5
+│   │   │   └── d4c95b55cb72a17c9be498c3758478e2c7bb8d
+│   │   ├── 7a
+│   │   │   ├── 1f2822c2f0440b0a5d2b843cbbc4353a487ea9
+│   │   │   ├── 23fc3e377e78c4a9e86acc0c53cd768a7e1c2e
+│   │   │   ├── 9374d0e5eadbb76aecd77cdc9443c2ad924d4d
+│   │   │   └── 9ec81e5b055de389814364782f4aa6f7b5496f
+│   │   ├── 7b
+│   │   │   ├── 9e7141194460185ce002e81587d8481fa1fb60
+│   │   │   └── eb732887ac12a8da14fe26db26abe3359cdbd8
+│   │   ├── 7c
+│   │   │   └── 2c8fa9a162bd258709494e442006f48a6c6396
+│   │   ├── 7e
+│   │   │   └── 3dfd8e7529611386a63c8a55376ebbbcc25dda
+│   │   ├── 81
+│   │   │   └── 714fb3cac092c0fed127703760cca7c88f8e5c
+│   │   ├── 82
+│   │   │   ├── 814fc37318a5da7bddb87115cc63642bb10c21
+│   │   │   └── 89722bb9fda57efbc9bea55a5c3e1bb1f5b111
+│   │   ├── 84
+│   │   │   └── e7f4e6365cc7aa450ecf568554595959c3667f
+│   │   ├── 85
+│   │   │   └── 9f150a28da182b165cbc833b5250e77a17fde6
+│   │   ├── 86
+│   │   │   └── e8353a87523f14a6a9b2f37484dcc05036c274
+│   │   ├── 88
+│   │   │   ├── 28357e40cd3e7cd528ffefa81def314ecb5caa
+│   │   │   └── b4dc82ca61408cafd989502e50cdc82ec6124b
+│   │   ├── 89
+│   │   │   ├── 4e3504ae08bcf0c189c4eab3eb14b02f7e0855
+│   │   │   └── a75bc8feecf68478c5ccce9e7ae1fbc21ad500
+│   │   ├── 8b
+│   │   │   ├── 137891791fe96927ad78e64b0aad7bded08bdc
+│   │   │   ├── ccbe76ca58201d33c8373b927ade7ea48b0e16
+│   │   │   └── e98943fa53af575526bcbfcfa210a4fca27fe4
+│   │   ├── 8d
+│   │   │   └── 2964c3cd25ecc31d552dfbf9b7cb5ca83bec76
+│   │   ├── 8f
+│   │   │   └── 4872d97ea48a2a59faaa2d29d51d9b1d99e1a4
+│   │   ├── 90
+│   │   │   └── 2eac7513d6e58a1032422096f05c7fcae0b844
+│   │   ├── 91
+│   │   │   ├── 48a528b8311beb70ca648630c195a82dc4bf62
+│   │   │   └── 7cd246a8cb656207b80bedb2df3ffd851389fe
+│   │   ├── 92
+│   │   │   ├── 60edde70dffe5a37a610f2ab4f0ed767ebdd28
+│   │   │   └── cb3cff40163ef14b8a4e90ec11e242faef61da
+│   │   ├── 93
+│   │   │   ├── a50880ecb712cf678a99773dd24ccc32180d76
+│   │   │   └── b8d704d544713557cb84a7c8fdb51ed878d98e
+│   │   ├── 96
+│   │   │   └── c1a6373a496905ffb2e6abbdab86f87ccd3e13
+│   │   ├── 97
+│   │   │   └── a39196e84db97954341162a6d2e7f771d938c0
+│   │   ├── 99
+│   │   │   ├── 3ab4da8588b90a41b640111163e2b0d28f384a
+│   │   │   └── 60e98484ed37fd7fdf21daddf385d94a38732a
+│   │   ├── 9a
+│   │   │   └── 0336eeb14c50b946a24a36ce95cc559121a8b7
+│   │   ├── 9d
+│   │   │   └── 1dcfdaf1a6857c5f83dc27019c7600e1ffaff8
+│   │   ├── 9e
+│   │   │   ├── 719ee379a23fa12efa31faaee832e3a8693602
+│   │   │   └── 805ebc2132dc57df11470e621af8ba646d5240
+│   │   ├── 9f
+│   │   │   ├── 3990662af0503054070f3ea9caf67d32bd1b6b
+│   │   │   ├── 6e4112597e50645c9b123e61b4f81eda48a55d
+│   │   │   ├── f165b7bab02b598d7e3cfe7e7985beee0413db
+│   │   │   └── f901ce917d2f11985e012f2dda2c9f3ed95f01
+│   │   ├── a0
+│   │   │   └── db937975d991e563ecd75ca1435bc3bb744767
+│   │   ├── a1
+│   │   │   ├── 7351e61ade2c417c10083f8847b5284bcbb016
+│   │   │   └── dca2faa03d6d497c310608e63cb1c6ed24934f
+│   │   ├── a2
+│   │   │   ├── 1f2182fce829dca3a8a5fef122cb3c917a8f51
+│   │   │   └── c0325784a42ebb3fb25989eaa1db1d2bd6d636
+│   │   ├── a5
+│   │   │   └── b2fc6951e77551890dcd9bf262c5547d7efc11
+│   │   ├── a6
+│   │   │   └── 1ad5b440ac753ebcce82b85ba445bf7aa5fd08
+│   │   ├── a7
+│   │   │   └── 409365d09241ca41d2036ef2126201e7ab1fda
+│   │   ├── a9
+│   │   │   ├── 3e305e362aace7725762e82231cfaa27837053
+│   │   │   └── 48e685ba5b63fd771736a77f467ddc57aed5a6
+│   │   ├── aa
+│   │   │   ├── 2824615182648368a526c71ea40047b2b642d9
+│   │   │   └── 3d0a0e34ecb86353862b1aca326160c7ab1b4b
+│   │   ├── ac
+│   │   │   └── 203de982397c19fc96ae66fafaa846f4b33ca9
+│   │   ├── ad
+│   │   │   └── 1527af6884194d82bccae4de462a47e30339e3
+│   │   ├── ae
+│   │   │   ├── 0cf9250ffcab2efcd68bf893c8f500669e3c76
+│   │   │   ├── bd64aaefa52974d514141b515fe695fd7212f6
+│   │   │   └── ec13b96a8d9f81b113726fecf1869b5a4c9ab9
+│   │   ├── af
+│   │   │   ├── 2239c08348375c55e9ca9ded9b3e2d0725730d
+│   │   │   └── 31f73962b4e139365c73080f5bc25d86554994
+│   │   ├── b1
+│   │   │   ├── 351e06318f874ed956c48b5eb26f46d4c0e696
+│   │   │   └── 95f8f1fc788b30f9c8e7384698fe3c3466fc9f
+│   │   ├── b2
+│   │   │   ├── 2572091307e44a64c547e0c656e110f2e5998c
+│   │   │   ├── 34a3840f4c5bd38f043638c8622b8f240e1185
+│   │   │   └── 619e24ba34c407832568bc25e02dd6d5c54b2f
+│   │   ├── b3
+│   │   │   ├── 2b7c80a0ae889ca03a00f95a6b5a670808bc3d
+│   │   │   └── ec12c8856f8be022a2198574563bd1e87081a0
+│   │   ├── b4
+│   │   │   └── fca4219fb117b27b463a9da3acef70bc3a87eb
+│   │   ├── b5
+│   │   │   └── 7d247c77c0293269460b70b9bb1360f27cf808
+│   │   ├── b6
+│   │   │   ├── 487102f245a7b5ddb2b1da158d6b99ddc91d8b
+│   │   │   ├── 6ece347725fb0c8cfbc6ac61023b9e49481dc8
+│   │   │   └── 78622f095db732fe98036c4aa6358d3baa16de
+│   │   ├── b8
+│   │   │   └── 06588ec988fa4da3bc8e32e350c7979b8dc495
+│   │   ├── b9
+│   │   │   └── 4426af08131a4ff58f8cc1caa47697427d6bd4
+│   │   ├── bb
+│   │   │   ├── 31025bf7e37e0a9abf988865e9962c48f45378
+│   │   │   └── 4d5b9ff8c9cab4573b0d4ce100c6b5bcd84f9c
+│   │   ├── bd
+│   │   │   └── a08bdaa344b2efce7d824ffe99d95cb4830afe
+│   │   ├── bf
+│   │   │   └── 5c8370c67d7a4aa19770415055c2b90a95fd1b
+│   │   ├── c1
+│   │   │   └── 65719a1dd295c7d07397ef58356d5f8b8e0864
+│   │   ├── c4
+│   │   │   ├── 24c64704b7b198cac2ad305a52148688d6447b
+│   │   │   ├── 7bf94186ec6009e923f46d9287402e1dbecf7f
+│   │   │   └── a6b1ac5185c878bc4aea119195abada96d5eec
+│   │   ├── c5
+│   │   │   └── 67ab0e1dffedd4b3cb6239253761f9b74ff586
+│   │   ├── c6
+│   │   │   └── 414184844192afb3d7af9951e5da25c0c859ab
+│   │   ├── c7
+│   │   │   └── 940700369bb1ca8c2f2ab881bc544f50a27486
+│   │   ├── c9
+│   │   │   ├── 3c710164a87da71436d552f9b4c13b7c4c57fe
+│   │   │   └── 3fea0661a0154c78ea5f470935aed9e4935b16
+│   │   ├── cb
+│   │   │   └── 5c0e8d42a49b5fca60f8a8339503085d87d68d
+│   │   ├── cc
+│   │   │   ├── 4641d1e3c5396859411dec7dd5fd004946bfc5
+│   │   │   └── 7c84fa8966f23e5a11adbb9df51e20fa139244
+│   │   ├── ce
+│   │   │   ├── ba10500b94afd27e2520a21a2d9c2a8430c4ba
+│   │   │   └── d066f06d1ad5aff03667eae0ff3a08a20b7e48
+│   │   ├── cf
+│   │   │   ├── 01286182e0a6ca7f9daf8272fec067feb27287
+│   │   │   └── ab4bd8d74bb4db95b983a47ef2f2992771f49d
+│   │   ├── d0
+│   │   │   ├── 275ba24d2e4a0645d3105645ea658b25905676
+│   │   │   ├── 3facc1a43658b232b3db29870b2be3889ff589
+│   │   │   ├── f541afb4c6258a2a198cd5d44155892bf43ff2
+│   │   │   └── f8038bb7185f3f5d017ce507d6518bf38c51df
+│   │   ├── d1
+│   │   │   ├── 2346bafc564a06a94aa683b7395e6be92659ae
+│   │   │   └── 359a9172a491f4dbd6b767535941c5858835f7
+│   │   ├── d2
+│   │   │   └── e7a40f8309d12c7c50d85f1991b94970c0d9d7
+│   │   ├── d3
+│   │   │   └── fea695cabfec17a2b8483e047b9a163d451ee6
+│   │   ├── d5
+│   │   │   └── 6ee7a81101314d2be1984c5b198682237b63fd
+│   │   ├── d6
+│   │   │   ├── 241d8dec98663fb6ec94e4eb71bf20ce89dfbd
+│   │   │   ├── 49f5085923af2ee139aab55cb8e4d265e6160d
+│   │   │   └── fbd9e7a9c287062aad8e59b029d8d2ab268c55
+│   │   ├── d8
+│   │   │   ├── 813e79cb9adb447b78139419015f518276b0e7
+│   │   │   ├── bdaefee16fa6cb90387bfe4bf45034b47a7c97
+│   │   │   └── eba44dd9129dedcf62e6192f1b6757d883429d
+│   │   ├── db
+│   │   │   ├── 3c17fc5df5e725e1b0692e1b6afbebe938c79c
+│   │   │   └── cbed817cf04bb7682403e9bedb3145d209aa61
+│   │   ├── dc
+│   │   │   └── 55e44b5556fc28ad7acb84f1df08a5aef15b8d
+│   │   ├── dd
+│   │   │   └── 82dbd907e661b6e54029c879eabe06ae69e4ff
+│   │   ├── df
+│   │   │   └── 47f0be7b9a9be2839879a5854d43fc77fd5e59
+│   │   ├── e0
+│   │   │   ├── 02eabf17fc91200c2f9169c9f92d891ecfe9df
+│   │   │   ├── 6da166c5374f04b405614186460fe69c74cfaa
+│   │   │   └── 7b010cf11bfff240f258926c515dbf111821fc
+│   │   ├── e1
+│   │   │   └── 19f32cba928c962cb0e9e25ca919bfce4c3e76
+│   │   ├── e2
+│   │   │   └── 0d77ffcedbcd2e30f74803e5fea4d797124b49
+│   │   ├── e3
+│   │   │   ├── b927b601c1304a2848436431a370398957e4dd
+│   │   │   └── cba22f75c24369f21a67dd4d03d7f172748c87
+│   │   ├── e4
+│   │   │   ├── 14fc0797dfedc49ed6579a2b29b0323f75d2d5
+│   │   │   ├── 2dfea0a30ae626a877be703cfc25fb38a60288
+│   │   │   └── 5ff894828baf6d92eb72653ffa21e92941993e
+│   │   ├── e5
+│   │   │   ├── 268d6ef29864a4a0c63a119b342d2de4326c3f
+│   │   │   └── 9b749a890ded9c46e9eaae2b9b6e42a1df1584
+│   │   ├── e6
+│   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   ├── e7
+│   │   │   └── 18c2fd7cb90e6cbee94e93c29211497ce43b50
+│   │   ├── e8
+│   │   │   └── 65445538faedd2f3c82eb8d05c87637d3d4131
+│   │   ├── e9
+│   │   │   ├── ac6a097c9d557bc5fee1256e291b1f22a8c310
+│   │   │   └── ff5659111980d7475094d6a85a7ab0c085e350
+│   │   ├── ea
+│   │   │   ├── 457c2327f31f0c0d159f06f01b18f3f8c84b2a
+│   │   │   ├── cd67c0517cc470fbe40c14aeb15b9fe6b33657
+│   │   │   └── ce2fb818e49737115ab007a5283ff273c73af5
+│   │   ├── eb
+│   │   │   └── 8b3720ac8e1b57f0c5f463e56465980699a43b
+│   │   ├── ee
+│   │   │   ├── 1e2d4987271c66ecd893ed674787fd2f720e94
+│   │   │   ├── 49c9f175009e75c667a73687c90b68047101d1
+│   │   │   └── dc1932047df247fe43a005f984bb7a2361655f
+│   │   ├── ef
+│   │   │   ├── 27dccf64dba2ba268f8060e795ec22f0b7b99a
+│   │   │   └── 868eb8e7da1b3c72e129dc8ed6c67a9d30b74f
+│   │   ├── f0
+│   │   │   └── b0aa4fc7fff2574600ce32677a83a0d6b8797e
+│   │   ├── f3
+│   │   │   ├── 041f688a623ea5c66e65c917bc503e5fae6dc9
+│   │   │   └── c9f756c8c7a345afbdfdc55fce6277c5bdd658
+│   │   ├── f4
+│   │   │   ├── 0ffc0803e8756e9ac93950a322a1ba9ec4d1c8
+│   │   │   ├── 2805802280466701017708aab1056caee3ac67
+│   │   │   └── 2cce35e9f0f4aa0e17c308303bd258126c0223
+│   │   ├── f5
+│   │   │   └── b122374fa688d0d2f3d73455e4cd8e8e514598
+│   │   ├── f6
+│   │   │   ├── 7eaa9891ec587c4bbe364da6b18b5c65631f4d
+│   │   │   └── 960fb27e3c787fb81cd29d638e9d1528728a52
+│   │   ├── f8
+│   │   │   ├── c034c5e3e8bd5e57bb5954607a36bf68189dd5
+│   │   │   ├── ce447208aa02660f517db7d8a8a4d6dc4949a2
+│   │   │   └── fb742f51652dca1308e6ef801acd2ce670bb9e
+│   │   ├── f9
+│   │   │   ├── 2de68438d4dba4d928b232217e40eccd785af7
+│   │   │   └── 867d51322a8ef47d4951080db6e3cfd048835e
+│   │   ├── fa
+│   │   │   └── 79bb16903fe2fa6563ab1be2a913af66a47688
+│   │   ├── fb
+│   │   │   ├── 2fb479778c204515691c8140368576a8b94920
+│   │   │   └── d8edfa7dc9f9d4e105d75c3814d752e3953b4c
+│   │   ├── fc
+│   │   │   ├── 561a0549750d1493e960dc23d7cdbaa1204a56
+│   │   │   └── cb473b5ff148c14bc6d4cc2746397482286b4b
+│   │   ├── fd
+│   │   │   ├── b21b108e43c490e6c8fdf28adc785c1e241abd
+│   │   │   ├── c3cee510263fdaf80d4fbb4f2867fe862c18fa
+│   │   │   ├── d2be8c745e3071df5dda80ead947d2d28a0391
+│   │   │   └── d9db58343a1baf09852886b4f8c203b1fd6676
+│   │   ├── fe
+│   │   │   └── 161be53dc8e564d26ad9387d7259807986dc51
+│   │   ├── ff
+│   │   │   ├── 9574a5b688764dfe110cf1a8593457855ee155
+│   │   │   └── a3692366cf0071cf485b5d88d3487a78fd310c
+│   │   ├── info
+│   │   └── pack
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       └── tags
+├── .gitignore
+├── install
+│   ├── COLCON_IGNORE
+│   ├── .colcon_install_layout
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── local_setup.zsh
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   ├── setup.zsh
+│   ├── tdcr_bringup
+│   │   ├── lib
+│   │   │   └── python3.10
+│   │   │       └── site-packages
+│   │   │           ├── tdcr_bringup
+│   │   │           │   ├── __init__.py
+│   │   │           │   └── __pycache__
+│   │   │           │       └── __init__.cpython-310.pyc
+│   │   │           └── tdcr_bringup-0.0.0-py3.10.egg-info
+│   │   │               ├── dependency_links.txt
+│   │   │               ├── entry_points.txt
+│   │   │               ├── PKG-INFO
+│   │   │               ├── requires.txt
+│   │   │               ├── SOURCES.txt
+│   │   │               ├── top_level.txt
+│   │   │               └── zip-safe
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       └── packages
+│   │       │           └── tdcr_bringup
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── tdcr_bringup
+│   │       └── tdcr_bringup
+│   │           ├── hook
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.ps1
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── pythonpath.dsv
+│   │           │   ├── pythonpath.ps1
+│   │           │   └── pythonpath.sh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml
+│   │           └── package.zsh
+│   ├── tdcr_control
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── tdcr_control
+│   │       │       ├── packages
+│   │       │       │   └── tdcr_control
+│   │       │       └── parent_prefix_path
+│   │       │           └── tdcr_control
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── tdcr_control
+│   │       └── tdcr_control
+│   │           ├── cmake
+│   │           │   ├── tdcr_controlConfig.cmake
+│   │           │   └── tdcr_controlConfig-version.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── path.dsv
+│   │           │   └── path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── local_setup.bash
+│   │           ├── local_setup.dsv
+│   │           ├── local_setup.sh
+│   │           ├── local_setup.zsh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml
+│   │           └── package.zsh
+│   ├── tdcr_description
+│   │   ├── lib
+│   │   │   └── python3.10
+│   │   │       └── site-packages
+│   │   │           └── tdcr_description-0.0.1-py3.10.egg-info
+│   │   │               ├── dependency_links.txt
+│   │   │               ├── entry_points.txt
+│   │   │               ├── PKG-INFO
+│   │   │               ├── requires.txt
+│   │   │               ├── SOURCES.txt
+│   │   │               ├── top_level.txt
+│   │   │               └── zip-safe
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       └── packages
+│   │       │           └── tdcr_description
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── tdcr_description
+│   │       └── tdcr_description
+│   │           ├── assets
+│   │           │   ├── base_link.stl
+│   │           │   ├── disc_base.stl
+│   │           │   ├── disc.stl
+│   │           │   ├── joint_1.stl
+│   │           │   ├── joint.stl
+│   │           │   ├── part_1__2.stl
+│   │           │   ├── part_1__3.stl
+│   │           │   ├── part_1__4.stl
+│   │           │   ├── part_1__5.stl
+│   │           │   ├── part_1__6.stl
+│   │           │   ├── part_1.stl
+│   │           │   ├── spinner_1.stl
+│   │           │   ├── spinner__2.stl
+│   │           │   └── spinner.stl
+│   │           ├── hook
+│   │           │   ├── pythonpath.dsv
+│   │           │   ├── pythonpath.ps1
+│   │           │   └── pythonpath.sh
+│   │           ├── launch
+│   │           │   └── display.launch.py
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml
+│   │           ├── package.zsh
+│   │           ├── robot.urdf
+│   │           └── rviz
+│   │               └── tdcr_view.rviz
+│   ├── tdcr_jacobian
+│   │   ├── lib
+│   │   │   └── python3.10
+│   │   │       └── site-packages
+│   │   │           ├── tdcr_jacobian
+│   │   │           │   ├── __init__.py
+│   │   │           │   └── __pycache__
+│   │   │           │       └── __init__.cpython-310.pyc
+│   │   │           └── tdcr_jacobian-0.0.0-py3.10.egg-info
+│   │   │               ├── dependency_links.txt
+│   │   │               ├── entry_points.txt
+│   │   │               ├── PKG-INFO
+│   │   │               ├── requires.txt
+│   │   │               ├── SOURCES.txt
+│   │   │               ├── top_level.txt
+│   │   │               └── zip-safe
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       └── packages
+│   │       │           └── tdcr_jacobian
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── tdcr_jacobian
+│   │       └── tdcr_jacobian
+│   │           ├── hook
+│   │           │   ├── ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.ps1
+│   │           │   ├── ament_prefix_path.sh
+│   │           │   ├── pythonpath.dsv
+│   │           │   ├── pythonpath.ps1
+│   │           │   └── pythonpath.sh
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml
+│   │           └── package.zsh
+│   └── tdcr_kinematics
+│       ├── lib
+│       │   └── python3.10
+│       │       └── site-packages
+│       │           ├── tdcr_kinematics
+│       │           │   ├── __init__.py
+│       │           │   └── __pycache__
+│       │           │       └── __init__.cpython-310.pyc
+│       │           └── tdcr_kinematics-0.0.0-py3.10.egg-info
+│       │               ├── dependency_links.txt
+│       │               ├── entry_points.txt
+│       │               ├── PKG-INFO
+│       │               ├── requires.txt
+│       │               ├── SOURCES.txt
+│       │               ├── top_level.txt
+│       │               └── zip-safe
+│       └── share
+│           ├── ament_index
+│           │   └── resource_index
+│           │       └── packages
+│           │           └── tdcr_kinematics
+│           ├── colcon-core
+│           │   └── packages
+│           │       └── tdcr_kinematics
+│           └── tdcr_kinematics
+│               ├── hook
+│               │   ├── ament_prefix_path.dsv
+│               │   ├── ament_prefix_path.ps1
+│               │   ├── ament_prefix_path.sh
+│               │   ├── pythonpath.dsv
+│               │   ├── pythonpath.ps1
+│               │   └── pythonpath.sh
+│               ├── package.bash
+│               ├── package.dsv
+│               ├── package.ps1
+│               ├── package.sh
+│               ├── package.xml
+│               └── package.zsh
+├── log
+│   ├── build_2026-06-16_12-41-24
+│   │   ├── events.log
+│   │   ├── logger_all.log
+│   │   ├── tdcr_bringup
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── tdcr_control
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── tdcr_description
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── tdcr_jacobian
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   └── tdcr_kinematics
+│   │       ├── command.log
+│   │       ├── stderr.log
+│   │       ├── stdout.log
+│   │       ├── stdout_stderr.log
+│   │       └── streams.log
+│   ├── COLCON_IGNORE
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2026-06-16_12-41-24
+├── README.md
+├── src
+│   ├── tdcr_bringup
+│   │   ├── package.xml
+│   │   ├── resource
+│   │   │   └── tdcr_bringup
+│   │   ├── setup.cfg
+│   │   ├── setup.py
+│   │   ├── tdcr_bringup
+│   │   │   └── __init__.py
+│   │   └── test
+│   │       ├── test_copyright.py
+│   │       ├── test_flake8.py
+│   │       └── test_pep257.py
+│   ├── tdcr_control
+│   │   ├── CMakeLists.txt
+│   │   ├── include
+│   │   │   └── tdcr_control
+│   │   ├── package.xml
+│   │   └── src
+│   ├── tdcr_description
+│   │   ├── assets
+│   │   │   ├── base_link.part
+│   │   │   ├── base_link.stl
+│   │   │   ├── disc_base.part
+│   │   │   ├── disc_base.stl
+│   │   │   ├── disc.part
+│   │   │   ├── disc.stl
+│   │   │   ├── joint_1.part
+│   │   │   ├── joint_1.stl
+│   │   │   ├── joint.part
+│   │   │   ├── joint.stl
+│   │   │   ├── part_1__2.part
+│   │   │   ├── part_1__2.stl
+│   │   │   ├── part_1__3.part
+│   │   │   ├── part_1__3.stl
+│   │   │   ├── part_1__4.part
+│   │   │   ├── part_1__4.stl
+│   │   │   ├── part_1__5.part
+│   │   │   ├── part_1__5.stl
+│   │   │   ├── part_1__6.part
+│   │   │   ├── part_1__6.stl
+│   │   │   ├── part_1.part
+│   │   │   ├── part_1.stl
+│   │   │   ├── spinner_1.part
+│   │   │   ├── spinner_1.stl
+│   │   │   ├── spinner__2.part
+│   │   │   ├── spinner__2.stl
+│   │   │   ├── spinner.part
+│   │   │   └── spinner.stl
+│   │   ├── config
+│   │   ├── config.json
+│   │   ├── launch
+│   │   │   └── display.launch.py
+│   │   ├── meshes
+│   │   ├── package.xml
+│   │   ├── resource
+│   │   │   └── tdcr_description
+│   │   ├── robot.urdf
+│   │   ├── rviz
+│   │   │   └── tdcr_view.rviz
+│   │   ├── setup.cfg
+│   │   ├── setup.py
+│   │   ├── tdcr_description
+│   │   │   ├── package.xml
+│   │   │   ├── resource
+│   │   │   │   └── tdcr_descriptioni
+│   │   │   ├── setup.cfg
+│   │   │   ├── setup.py
+│   │   │   ├── tdcr_description
+│   │   │   │   └── __init__.py
+│   │   │   └── test
+│   │   │       ├── test_copyright.py
+│   │   │       ├── test_flake8.py
+│   │   │       └── test_pep257.py
+│   │   ├── test
+│   │   │   ├── test_copyright.py
+│   │   │   ├── test_flake8.py
+│   │   │   └── test_pep257.py
+│   │   └── urdf
+│   ├── tdcr_jacobian
+│   │   ├── package.xml
+│   │   ├── resource
+│   │   │   └── tdcr_jacobian
+│   │   ├── setup.cfg
+│   │   ├── setup.py
+│   │   ├── tdcr_jacobian
+│   │   │   └── __init__.py
+│   │   └── test
+│   │       ├── test_copyright.py
+│   │       ├── test_flake8.py
+│   │       └── test_pep257.py
+│   └── tdcr_kinematics
+│       ├── package.xml
+│       ├── resource
+│       │   └── tdcr_kinematics
+│       ├── setup.cfg
+│       ├── setup.py
+│       ├── tdcr_kinematics
+│       │   └── __init__.py
+│       └── test
+│           ├── test_copyright.py
+│           ├── test_flake8.py
+│           └── test_pep257.py
+└── workspace_structure.txt
+
+371 directories, 725 files

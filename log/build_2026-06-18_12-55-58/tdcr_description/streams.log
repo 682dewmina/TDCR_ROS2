@@ -1,0 +1,57 @@
+[0.056s] Invoking command in '/home/danushkara/TDCR_ws/build/tdcr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danushkara/TDCR_ws/install/tdcr_bringup:/home/danushkara/TDCR_ws/install/tdcr_jacobian:/home/danushkara/TDCR_ws/install/tdcr_kinematics:/opt/ros/humble /usr/bin/cmake --build /home/danushkara/TDCR_ws/build/tdcr_description -- -j8 -l8
+[0.264s] Invoked command in '/home/danushkara/TDCR_ws/build/tdcr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danushkara/TDCR_ws/install/tdcr_bringup:/home/danushkara/TDCR_ws/install/tdcr_jacobian:/home/danushkara/TDCR_ws/install/tdcr_kinematics:/opt/ros/humble /usr/bin/cmake --build /home/danushkara/TDCR_ws/build/tdcr_description -- -j8 -l8
+[0.283s] Invoking command in '/home/danushkara/TDCR_ws/build/tdcr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danushkara/TDCR_ws/install/tdcr_bringup:/home/danushkara/TDCR_ws/install/tdcr_jacobian:/home/danushkara/TDCR_ws/install/tdcr_kinematics:/opt/ros/humble /usr/bin/cmake --install /home/danushkara/TDCR_ws/build/tdcr_description
+[0.296s] -- Install configuration: ""
+[0.298s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/urdf
+[0.298s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets
+[0.300s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/spinner.stl
+[0.300s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/disc.stl
+[0.300s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__2.part
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/joint.part
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/base_link.stl
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__4.stl
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__6.part
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__5.part
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/disc_base.stl
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1.part
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/disc_base.part
+[0.301s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/joint.stl
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/base_link.part
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/spinner__2.part
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/spinner_1.part
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__3.part
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__5.stl
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1.stl
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__3.stl
+[0.302s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__6.stl
+[0.303s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__2.stl
+[0.303s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/spinner__2.stl
+[0.303s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/joint_1.part
+[0.303s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/spinner_1.stl
+[0.303s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/joint_1.stl
+[0.304s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/disc.part
+[0.304s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/spinner.part
+[0.304s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/assets/part_1__4.part
+[0.304s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/launch
+[0.304s] -- Installing: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/launch/kinematics.launch.py
+[0.304s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/launch/display.launch.py
+[0.304s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/rviz
+[0.304s] -- Installing: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/rviz/tdcr_view.rviz
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/meshes
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/robot.urdf
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/ament_index/resource_index/package_run_dependencies/tdcr_description
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/ament_index/resource_index/parent_prefix_path/tdcr_description
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/environment/ament_prefix_path.sh
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/environment/ament_prefix_path.dsv
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/environment/path.sh
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/environment/path.dsv
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/local_setup.bash
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/local_setup.sh
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/local_setup.zsh
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/local_setup.dsv
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/package.dsv
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/ament_index/resource_index/packages/tdcr_description
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/cmake/tdcr_descriptionConfig.cmake
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/cmake/tdcr_descriptionConfig-version.cmake
+[0.305s] -- Up-to-date: /home/danushkara/TDCR_ws/install/tdcr_description/share/tdcr_description/package.xml
+[0.308s] Invoked command in '/home/danushkara/TDCR_ws/build/tdcr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danushkara/TDCR_ws/install/tdcr_bringup:/home/danushkara/TDCR_ws/install/tdcr_jacobian:/home/danushkara/TDCR_ws/install/tdcr_kinematics:/opt/ros/humble /usr/bin/cmake --install /home/danushkara/TDCR_ws/build/tdcr_description

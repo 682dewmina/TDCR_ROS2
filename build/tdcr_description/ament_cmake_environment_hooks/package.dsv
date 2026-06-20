@@ -1,0 +1,4 @@
+source;share/tdcr_description/local_setup.bash
+source;share/tdcr_description/local_setup.dsv
+source;share/tdcr_description/local_setup.sh
+source;share/tdcr_description/local_setup.zsh

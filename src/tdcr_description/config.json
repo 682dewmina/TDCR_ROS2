@@ -1,0 +1,15 @@
+{
+    "onshapeApiKey": "on_n5Mhq5wdH6jTj13V6q0pk",
+    "onshapeApiSecret": "nAwWApy9yMF1Sb1RdU8yGRn9GawTOD1n7p9XNyVoATAl2Rpx",
+    "documentId": "b41dd6261b6b10c837374294",
+    "outputFormat": "urdf",
+    "packageName": "tdcr_description",
+    "robotName": "tdcr_arm",
+    "assemblyName": "Assembly 1",
+    "useScads": false,
+    "ignoredMates": [],
+    "outputDirectory": "urdf/",
+    "meshDir": "meshes/",
+    "jointMaxEffort": 10,
+    "jointMaxVelocity": 1.0
+}

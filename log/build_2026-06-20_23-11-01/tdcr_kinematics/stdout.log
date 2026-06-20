@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/PKG-INFO
+writing dependency_links to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/dependency_links.txt
+writing entry points to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/entry_points.txt
+writing requirements to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/requires.txt
+writing top-level names to ../../build/tdcr_kinematics/tdcr_kinematics.egg-info/top_level.txt
+reading manifest file '../../build/tdcr_kinematics/tdcr_kinematics.egg-info/SOURCES.txt'
+writing manifest file '../../build/tdcr_kinematics/tdcr_kinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tdcr_kinematics/prb_kinematics.py -> /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics
+running install
+running install_lib
+copying /home/danushkara/TDCR_ws/build/tdcr_kinematics/build/lib/tdcr_kinematics/prb_kinematics.py -> /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics
+byte-compiling /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics/prb_kinematics.py to prb_kinematics.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/tdcr_kinematics/tdcr_kinematics.egg-info to /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/python3.10/site-packages/tdcr_kinematics-0.0.1-py3.10.egg-info
+running install_scripts
+Installing kinematics_node script to /home/danushkara/TDCR_ws/install/tdcr_kinematics/lib/tdcr_kinematics
+writing list of installed files to '/home/danushkara/TDCR_ws/build/tdcr_kinematics/install.log'
