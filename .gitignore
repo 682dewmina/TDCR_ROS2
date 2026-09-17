@@ -1,1 +1,6 @@
-build/\ninstall/\nlog/\n__pycache__/\n*.pyc
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.egg-info/
