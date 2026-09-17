@@ -1,6 +1,0 @@
-source;share/tdcr_jacobian/hook/pythonpath.ps1
-source;share/tdcr_jacobian/hook/pythonpath.dsv
-source;share/tdcr_jacobian/hook/pythonpath.sh
-source;share/tdcr_jacobian/hook/ament_prefix_path.ps1
-source;share/tdcr_jacobian/hook/ament_prefix_path.dsv
-source;share/tdcr_jacobian/hook/ament_prefix_path.sh

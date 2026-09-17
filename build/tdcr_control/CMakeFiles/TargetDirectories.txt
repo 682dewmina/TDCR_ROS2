@@ -1,9 +1,0 @@
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/uninstall.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/tdcr_control_uninstall.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/test.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/edit_cache.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/rebuild_cache.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/list_install_components.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/install.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/install/local.dir
-/home/danushkara/TDCR_ws/build/tdcr_control/CMakeFiles/install/strip.dir

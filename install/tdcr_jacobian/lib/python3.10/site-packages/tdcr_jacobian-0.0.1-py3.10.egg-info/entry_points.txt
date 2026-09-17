@@ -1,3 +1,0 @@
-[console_scripts]
-jacobian_node = tdcr_jacobian.jacobian_node:main
-
